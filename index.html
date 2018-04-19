@@ -9,10 +9,30 @@
   </head>
   <body>
 
-<canvas id="canvas" height="600px" width="800px"></canvas>
+  <div class="wrapper">
+  <nav>
+  <ul>
+    <li id="trackX"></li>
+    <li id="trackY"></li>
+    <li><button id="btnRect">Rectangle</button></li>
+    <li><button id="btnLine">Line</button></li>
+    <li><button id="btnCircle">Circle</button></li>
+    <li><button id="btnPath">Path</button></li>
+    
+    <li>
+      <lable for="StrokeColor">Stroke</lable>
+      <input type="color" id="strokeColor">
+      <br>
+      <input type="checkbox" id="randStrokeColor">
+      <label for="randStrokeColor">Random Stroke</label>
+    </li>
 
-<script src="./dist/js/main.min.js"></script>
+  </ul>
+  </nav>
+  <main></main>
+  </div>
 
-
+  <script src="./dist/js/main.min.js"></script>
+  
   </body>
 </html>
